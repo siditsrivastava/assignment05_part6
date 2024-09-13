@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        width: auto;
+        height: 60px;
+        background-color: black;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+        padding-top: 15px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      #home {
+        width: auto;
+        height: 600px;
+        background-color: red;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      #about {
+        width: auto;
+        height: 600px;
+        background-color: blue;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      #service {
+        width: auto;
+        height: 600px;
+        background-color: yellow;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      #contact {
+        width: auto;
+        height: 600px;
+        background-color: green;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="navigation">
+        <ul>
+          <li>
+            <a href="#home" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#about" aria-label="about section">About Us</a>
+          </li>
+          <li>
+            <a href="#service" aria-label="services section">Services</a>
+          </li>
+          <li>
+            <a href="#contact" aria-label="contact-section">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div id="home">
+        <h1>Home Page</h1>
+      </div>
+      <div id="about">
+        <h1>About Page</h1>
+      </div>
+      <div id="service">
+        <h1>Servies Page</h1>
+      </div>
+      <div id="contact">
+        <h1>Contact Page</h1>
+      </div>
+    </section>
+  </body>
+</html>
